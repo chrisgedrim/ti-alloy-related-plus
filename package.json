@@ -1,19 +1,19 @@
 {
   "name": "ti-alloy-related-plus",
   "main": "./lib/ti-alloy-related-plus",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Opens related Controller, View, Style, and (optionally) Spec files for Appcellerator's Alloy framework",
   "keywords": [
-      "alloy",
-      "titanium"
+    "alloy",
+    "titanium"
   ],
   "activationCommands": {
     "atom-workspace": [
-        "ti-alloy-related-plus:openRelated",
-        "ti-alloy-related-plus:openRelatedController",
-        "ti-alloy-related-plus:openRelatedView",
-        "ti-alloy-related-plus:openRelatedStyle",
-        "ti-alloy-related-plus:openRelatedSpec"
+      "ti-alloy-related-plus:openRelated",
+      "ti-alloy-related-plus:openRelatedController",
+      "ti-alloy-related-plus:openRelatedView",
+      "ti-alloy-related-plus:openRelatedStyle",
+      "ti-alloy-related-plus:openRelatedSpec"
     ]
   },
   "repository": "https://github.com/chrisgedrim/ti-alloy-related-plus",
@@ -21,6 +21,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
