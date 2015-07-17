@@ -1,0 +1,6 @@
+'atom-workspace':
+  'ctrl-alt-r': 'ti-alloy-related-plus:openRelated'
+  'ctrl-alt-shift-c': 'ti-alloy-related-plus:openRelatedController'
+  'ctrl-alt-shift-v': 'ti-alloy-related-plus:openRelatedView'
+  'ctrl-alt-shift-s': 'ti-alloy-related-plus:openRelatedStyle'
+  'ctrl-alt-shift-t': 'ti-alloy-related-plus:openRelatedSpec'

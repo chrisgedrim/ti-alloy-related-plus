@@ -1,0 +1,47 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Alloy'
+      'submenu': [{
+          'label': 'Open controller'
+          'command': 'ti-alloy-related-plus:openRelatedController'
+      } , {
+          'label': 'Open view'
+          'command': 'ti-alloy-related-plus:openRelatedView'
+      } , {
+          'label': 'Open style'
+          'command': 'ti-alloy-related-plus:openRelatedStyle'
+      } , {
+          'label': 'Open spec'
+          'command': 'ti-alloy-related-plus:openRelatedSpec'
+      } ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Alloy'
+      'submenu': [{
+          'label': 'Open related'
+          'command': 'ti-alloy-related-plus:openRelated'
+      } , {
+          'label': 'Open related...'
+          'submenu': [{
+              'label': 'controller'
+              'command': 'ti-alloy-related-plus:openRelatedController'
+          } , {
+              'label': 'view'
+              'command': 'ti-alloy-related-plus:openRelatedView'
+          } , {
+              'label': 'style'
+              'command': 'ti-alloy-related-plus:openRelatedStyle'
+          } , {
+              'label': 'spec'
+              'command': 'ti-alloy-related-plus:openRelatedSpec'
+          } ]
+      } ]
+    ]
+  }
+]
