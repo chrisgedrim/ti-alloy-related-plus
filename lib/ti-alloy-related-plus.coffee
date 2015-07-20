@@ -30,7 +30,6 @@ module.exports = TiAlloyRelatedPlus =
 
   deactivate: ->
     @subscriptions.dispose()
-    @tiAlloyRelatedPlusView.destroy()
 
   openRelated: ->
     editor = atom.workspace.getActivePaneItem()
