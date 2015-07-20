@@ -1,7 +1,7 @@
 {
   "name": "ti-alloy-related-plus",
   "main": "./lib/ti-alloy-related-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opens related Controller, View, Style, and (optionally) Spec files for Appcellerator's Alloy framework",
   "keywords": [
     "alloy",
